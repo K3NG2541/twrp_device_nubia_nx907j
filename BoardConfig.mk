@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/santoni
+LOCAL_PATH := device/nubia/nx907j
 
 # Architecture
 TARGET_ARCH := arm64
