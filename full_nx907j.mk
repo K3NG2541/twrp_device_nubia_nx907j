@@ -17,6 +17,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
+#Hack for file context
+$(shell mkdir -p $(OUT)/recovery/root)
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
